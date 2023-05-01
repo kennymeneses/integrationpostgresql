@@ -7,6 +7,5 @@
         Task RemoveAsync(TEntity entity);
         Task<TEntity> GetByIdAsync(int id);
         Task<IEnumerable<TEntity>> GetAllAsync();
-
     }
 }
