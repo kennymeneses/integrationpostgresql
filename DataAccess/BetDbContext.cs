@@ -12,7 +12,10 @@ namespace DataAccess
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<Matches>()
+                .HasKey(m  => m.Id);
         }
 
         public DbSet<Matches> Matches { get; set; }
