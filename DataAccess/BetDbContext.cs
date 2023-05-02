@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
 
 namespace DataAccess
 {
@@ -19,12 +20,12 @@ namespace DataAccess
 
     public class Matches
     {
+        [Key]
         public int Id { get; set; }
         public string EquipoLocal { get; set; }
         public string EquipoVisitante { get; set; }
         public DateTime Fecha { get; set; }
         public int ResultadoLocal { get; set; }
         public int ResultadoVisitante { get; set; }
-
     }
 }
