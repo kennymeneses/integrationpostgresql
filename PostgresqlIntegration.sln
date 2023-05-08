@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostgresqlIntegration", "PostgresqlIntegration\PostgresqlIntegration.csproj", "{52A8BC0D-CFE0-4366-8A37-018BC29860C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PostgresqlIntegration", "PostgresqlIntegration\PostgresqlIntegration.csproj", "{52A8BC0D-CFE0-4366-8A37-018BC29860C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BussinessLogic", "BussinessLogic\BussinessLogic.csproj", "{54ECC57A-E042-4508-B981-A870D9436417}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{9A34A4DC-0649-4D62-9369-DE54A25DA5D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{52A8BC0D-CFE0-4366-8A37-018BC29860C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52A8BC0D-CFE0-4366-8A37-018BC29860C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52A8BC0D-CFE0-4366-8A37-018BC29860C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54ECC57A-E042-4508-B981-A870D9436417}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54ECC57A-E042-4508-B981-A870D9436417}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54ECC57A-E042-4508-B981-A870D9436417}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54ECC57A-E042-4508-B981-A870D9436417}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A34A4DC-0649-4D62-9369-DE54A25DA5D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A34A4DC-0649-4D62-9369-DE54A25DA5D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A34A4DC-0649-4D62-9369-DE54A25DA5D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A34A4DC-0649-4D62-9369-DE54A25DA5D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
