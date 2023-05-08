@@ -1,11 +1,11 @@
 ﻿namespace DataAccess
 {
-    public interface IRepository<TEntity> where TEntity : class
+    public interface IRepository
     {
-        Task PostAsync(TEntity entity);
-        Task UpdateAsync(TEntity entity);
-        Task RemoveAsync(TEntity entity);
-        Task<TEntity> GetByIdAsync(int id);
-        Task<IEnumerable<TEntity>> GetAllAsync();
+        Task PostAsync<T>(T entity) where T : class;
+        Task UpdateAsync<T>(T entity) where T : class;
+        Task RemoveAsync(int id);
+        Task<T> GetByIdAsync<T>(int id) where T : class;
+        Task<IEnumerable<T>> GetAllAsync<T>() where T : class;
     }
 }
